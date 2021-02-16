@@ -1,0 +1,307 @@
+@media screen and (max-width: 576px) {
+   
+
+    #student{
+        background-image: url('student.png');
+        border-color: 1px solid blue;
+        border-radius: 25px;
+        height:350px;
+        width:95%;
+        background-size: cover;
+        
+        margin-left: auto;
+        margin-right: auto;
+        
+            }
+        
+        #studentbox{
+            PADDING:3%;background-color:white;border-radius:25px;opacity:0.6;
+            width:100%;
+            position: relative;
+            font-size:12px;
+            margin-left:1%;
+        top:190px;
+        
+        }
+            
+        #buttons{
+        position:relative;
+        top:1%;
+        float:right;
+        top:180px;
+        margin-bottom:5%;
+        margin-top:9%;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        
+        #button1{
+            background-color: white;
+            border:2px solid #4da6ff;
+            color:#4da6ff;
+            height: 60px;;
+            width:100%;
+            margin-bottom:2px;
+            border-radius: 10px;
+            font-size:22px;
+            font-family: "Berkshire Swash";
+        transition: 1s;
+        
+        }
+        #button1:hover{
+            border-radius: 25px;
+            background-color: #009999;
+            border:2px solid #4da6ff;
+            color:white;
+        
+        }
+        #button2{
+            background-color: #4da6ff;
+            border:2px solid #4da6ff;
+            color:white;
+            height:60px;
+            width:100%;
+            border-radius: 10px;
+            font-size:22px;
+            transition: 1s;
+            font-family: "Berkshire Swash";
+        }
+        #button2:hover{
+            background-color:#009999;
+        color:white;
+        border:2px solid #4da6ff;
+        border-radius: 25px;
+        }
+        
+        .vl {
+            border: 3px solid grey;
+            height: 100px;
+            
+          }
+        
+
+
+          #container2{
+              
+            margin-top:30%;
+          }
+          #heading1{
+            font-size:50px;
+            font-family: "Berkshire Swash";
+            text-align: center;
+            color:grey;
+        
+        }
+          
+        
+#projectcard{
+    height:650px;
+    margin-left: auto;margin-right: auto;text-align:center;background-color: #d9d9d9; padding:1%;width:95%;border-radius: 20px;font-weight: bold;
+}
+#modulescard{
+    height:650px;
+    margin-left: auto;margin-right: auto;text-align:center;background-color: #d9d9d9; padding:1%;width:95%;border-radius: 20px;font-weight: bold;
+}
+
+
+.legend3{
+  margin-right: auto;
+  margin-left:auto;
+ text-align: center;
+}
+#card3{
+    background-color: #b3d9ff;
+}
+
+#iottable{
+    border-collapse: separate;
+    border-spacing: 10px;color:black;font-size:20px;font-family: Sofia;
+}
+.divider2{
+    display: none;
+}
+#card4{
+    margin-bottom:10%;
+}
+.legend4{
+    text-align: center;
+}
+        #card1{
+
+            width:100%;
+            font-weight: bold;;
+        }
+        #legend1{
+            margin-left:auto;
+            margin-right:auto;
+            text-align: center;
+        }
+        #modules{
+
+            margin-bottom:20%;
+        }
+
+        #projects{
+
+            margin-bottom:8%;
+        }
+        
+    
+
+
+
+        #b{
+            height:50px;
+            width:50px;
+            
+                }
+        .btn-primary{
+            height:100px;
+        }
+       #buttonheading{
+           font-size:17px;
+       }
+       #buttonpara{
+           display:none;
+       }
+       .table3{
+        width: 100%;
+    }
+    
+
+
+
+    #c{
+        height:50px;
+        width:50px;
+    }
+    #btn2{
+        height:120px;
+        width:120px;
+        border-radius:25px;
+    }
+    #buttonheading2{
+        font-size:15px;
+    }
+    #btnrow2{
+        width:80%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #header {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width:100%;
+       background-color:#4da6ff;
+       margin-bottom:5%;
+      }
+      
+#brand{
+    padding:6px 2px;
+}
+      #logo{
+          height: 40px;
+          width:100px;
+    
+      }
+      #logoimg{
+          height:30px;
+          width:50px;
+      }
+      #cart{
+       height:30px;
+       width:50px;   
+      }
+      #profile{
+        height:30px;
+        width:50px;     
+       }
+       
+     
+  
+      
+      li{
+          height:100%;
+      }
+
+      .menuitem {
+        float: left;
+        margin-top: auto;
+      margin-bottom: auto;
+      height: 100%;
+      
+      }
+      
+      .menuitem a {
+    font-size: 25px;
+    font-family: 'Berkshire Swash';
+        display: block;
+        color: white;
+        height: 100%;
+        text-align: center;
+        padding: 9px 0px;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color:#0080ff;
+        text-decoration: none;
+        color:white;
+      }
+    #tableb{
+        color:white;
+        font-size:12px;
+        border-collapse: collapse;
+    }
+    buttons img{
+height:40px;
+width:40px;
+    }
+      .lastimg{
+        height:100px;
+        width:200px;
+    }
+
+    
+.fa {
+    
+    height: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 4px 2px;
+    
+        
+        transition: 1s;
+      }
+      #mail{
+          width:15px;
+          height:15px;
+ 
+      }
+      #map{
+  
+        width:15px;
+        height:15px;
+    }
+    
+
+    }
