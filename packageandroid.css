@@ -37,34 +37,34 @@
         
         #button1{
             background-color: white;
-            border:2px solid #4da6ff;
-            color:#4da6ff;
+            border:2px solid #007FEB;
+            color:#007FEB;
             height: 60px;;
             width:100%;
             margin-bottom:2px;
             border-radius: 10px;
             font-size:22px;
-            font-family: "Berkshire Swash";
+
         transition: 1s;
         
         }
         #button1:hover{
             border-radius: 25px;
             background-color: #009999;
-            border:2px solid #4da6ff;
+            border:2px solid #007FEB;
             color:white;
         
         }
         #button2{
-            background-color: #4da6ff;
-            border:2px solid #4da6ff;
+            background-color: #007FEB;
+            border:2px solid #007FEB;
             color:white;
             height:60px;
             width:100%;
             border-radius: 10px;
             font-size:22px;
             transition: 1s;
-            font-family: "Berkshire Swash";
+      
         }
         #button2:hover{
             background-color:#009999;
@@ -87,9 +87,9 @@
           }
           #heading1{
             font-size:50px;
-            font-family: "Berkshire Swash";
+           
             text-align: center;
-            color:grey;
+            color:black;
         
         }
           
@@ -99,7 +99,7 @@
     margin-left: auto;margin-right: auto;text-align:center;background-color: #d9d9d9; padding:1%;width:95%;border-radius: 20px;font-weight: bold;
 }
 #modulescard{
-    height:650px;
+    height:750px;
     margin-left: auto;margin-right: auto;text-align:center;background-color: #d9d9d9; padding:1%;width:95%;border-radius: 20px;font-weight: bold;
 }
 
@@ -135,6 +135,7 @@
             margin-left:auto;
             margin-right:auto;
             text-align: center;
+            height:150px;width:200px;
         }
         #modules{
 
@@ -206,9 +207,10 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
+        padding-left:4%;
         overflow: hidden;
         width:100%;
-       background-color:#4da6ff;
+       background-color:#007FEB;
        margin-bottom:5%;
       }
       
@@ -222,7 +224,7 @@
       }
       #logoimg{
           height:30px;
-          width:50px;
+          width:40px;
       }
       #cart{
        height:30px;
