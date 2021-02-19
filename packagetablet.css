@@ -130,6 +130,17 @@
             color:grey;
         
         }
+        
+#tempimg2{
+    display:none;
+}
+
+#secondlastcard{
+    text-align:center;
+}
+        #tempimg1{
+            display:none;
+        }
             .hl{
                 margin-top:3%;
         
@@ -147,7 +158,13 @@
                 width:300px;
             }
           
-
+            #footer{
+                padding:2%;
+            
+            }
+            .legendheading2{
+                text-align: center;
+            } 
 
             #b{
                 height:80px;

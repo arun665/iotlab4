@@ -4,9 +4,9 @@
     #student{
 background-image: url('student.png');
 border-color: 1px solid blue;
-border-radius: 50px;
-height:650px;
-width:90%;
+border-radius: 65px;
+height:640px;
+width:88%;
 background-size: cover;
 margin-left: auto;
 margin-right: auto;
@@ -15,11 +15,11 @@ margin-right: auto;
     }
 
 #studentbox{
-    PADDING:4%;background-color:white;border-radius:25px;opacity:0.6;
+    PADDING:6%;background-color:hsl(0, 0%, 100% , 0.6);border-radius:60px;
     width:100%;
     position: relative;
     margin-left:5%;
-top:400px;
+top:380px;
 
 }
 
@@ -31,15 +31,56 @@ margin-right:10%;
 
 
 }
+#footerbuttons{
+    margin-right:8%;
+}
+#lastcol1{
+    width:55%;
+}
+
+#footer{
+    padding:2%;
+    padding-left:8%;
+}
+
+#temp{
+    display:none;
+}
+#legend1{
+    display:none;
+}
+#tempdiv{
+    margin-right:2.5%;
+}
+#studentboxheading{
+    font-size:50px;
+}
+
+.legend4{
+    display:none;
+}
+
+#secondlastcard{
+    margin-left:40%;
+    margin-top:5%;
+    margin-bottom:5%;
+    font-size:40px;
+    text-align:left;
+}
+#secondlastdiv{
+    margin-top:10%;
+}
+
+
 
 #button1{
     background-color: white;
     border:2px solid #007FEB;
     color:#007FEB;
-    height:100px;
+    height:70px;
     width:400px;
-    margin-bottom:4px;
-    border-radius: 10px;
+    margin-bottom:15px;
+    border-radius: 2px;
     font-size:32px;
     font-weight: BOLD;
     
@@ -57,10 +98,10 @@ transition: 1s;
     background-color: #007FEB;
     border:2px solid #007FEB;
     color:white;
-    height:100px;
+    height:70px;
     font-weight: bold;
     width:400px;
-    border-radius: 10px;
+    border-radius: 2px;
     font-size:32px;
     transition: 1s;
     
@@ -73,8 +114,8 @@ border-radius: 25px;
 }
 
 .vl {
-    border-left: 6px solid grey;
-    height: 100px;
+    border-left: 8px solid grey;
+    height: 120px;
     
   }
 
@@ -95,7 +136,7 @@ border-radius: 25px;
         border-top:6px solid grey;
         margin-right:auto;
         margin-left:auto;
-        width:50%;
+        width:35%;
     }
 
     #card1{
@@ -108,14 +149,14 @@ border-radius: 25px;
 
 #projectcard{
     height:600px;
-    margin-left: auto;margin-right: auto;text-align:center;background-color:  rgba(235, 234, 234, 0.973); padding:3%;width:90%;border-radius: 75px;font-weight: bold;
+    margin-left: auto;margin-right: auto;text-align:center;background-color:  rgba(235, 234, 234, 0.973); padding:2%;width:85%;border-radius: 75px;font-weight: bold;
 }
 #legend1{
     height:250px;width:300px;
 }
 #modulescard{
     height:600px;
-    margin-left: auto;margin-right: auto;text-align:center;background-color: rgba(235, 234, 234, 0.973); padding:3%;width:90%;border-radius: 75px;font-weight: bold;
+    margin-left: auto;margin-right: auto;text-align:center;background-color: rgba(235, 234, 234, 0.973); padding:2%;width:85%;border-radius: 75px;font-weight: bold;
 }
 
 
@@ -124,8 +165,15 @@ border-radius: 25px;
 }
 
 #table3row {
-width:400px;
+width:288px;
+padding-top:5px;
+padding-bottom:5px;
+height:120px;
     
+}
+
+#buttonheading{
+    text-align:left;
 }
     .legend2{
         display: none;
@@ -137,12 +185,12 @@ width:400px;
     }
 
     #card4{
-        height:750px;
+        height:650px;
        
     }
     .divider2{
         border-left: 6px solid grey;
-        height: 530px;
+        height: 560px;
         position: absolute;
         left: 50%;
         margin-left: -3px;
@@ -154,8 +202,8 @@ width:400px;
         height:100px;
     }
     #b{
-        height:120px;
-        width:120px;
+        height:100px;
+        width:100px;
         
             }
     .btn-primary{
@@ -165,6 +213,13 @@ width:400px;
 .legendheading{
  position:relative;
  top:0px;
+}
+.legendheading2{
+    margin-left:28%;
+    margin-top:1.6%;
+}
+#fieldset1{
+    margin-top:4%;
 }
 
 
@@ -209,8 +264,12 @@ width:400px;
       height:200px;
       width:450px;
   }
-
-
+#buttonheading{
+    text-align:left;
+}
+#buttonpara{
+    text-align: left;
+}
 #tableb{
     color:white;font-weight:bold;
     font-size:20px;
@@ -268,16 +327,17 @@ font-family: 'Berkshire Swash';
 
 
 #c{
-    height:80px;
-    width:80px;
+    height:60px;
+    width:60px;
 }
 #btn2{
-    height:150px;
-    width:150px;
+    height:120px;
+    width:120px;
     border-radius:25px;
 }
 #buttonheading2{
-    font-size:20px;
+    font-size:15px;
+    font-weight:bold;
 }
 #btnrow2{
     width:65%;
@@ -317,8 +377,8 @@ font-family: 'Berkshire Swash';
 
 .fa {
     
-height: 50px;
-    width: 50px;
+height: 70px;
+    width: 70px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;

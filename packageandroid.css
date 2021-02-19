@@ -5,7 +5,7 @@
         background-image: url('student.png');
         border-color: 1px solid blue;
         border-radius: 25px;
-        height:350px;
+        height:370px;
         width:95%;
         background-size: cover;
         
@@ -23,7 +23,9 @@
         top:190px;
         
         }
-            
+           .legendheading2{
+               text-align: center;
+           } 
         #buttons{
         position:relative;
         top:1%;
@@ -79,6 +81,16 @@
             
           }
         
+#tempimg2{
+    display:none;
+}
+#secondlastcard{
+    text-align:center;
+}
+#footer{
+    padding:2%;
+
+}
 
 
           #container2{
@@ -86,7 +98,7 @@
             margin-top:30%;
           }
           #heading1{
-            font-size:50px;
+            font-size:40px;
            
             text-align: center;
             color:black;
@@ -99,7 +111,7 @@
     margin-left: auto;margin-right: auto;text-align:center;background-color: #d9d9d9; padding:1%;width:95%;border-radius: 20px;font-weight: bold;
 }
 #modulescard{
-    height:750px;
+    height:850px;
     margin-left: auto;margin-right: auto;text-align:center;background-color: #d9d9d9; padding:1%;width:95%;border-radius: 20px;font-weight: bold;
 }
 
@@ -112,7 +124,9 @@
 #card3{
     background-color: #b3d9ff;
 }
-
+#tempimg1{
+    display:none;
+}
 #iottable{
     border-collapse: separate;
     border-spacing: 10px;color:black;font-size:20px;font-family: Sofia;
@@ -132,10 +146,11 @@
             font-weight: bold;;
         }
         #legend1{
-            margin-left:auto;
-            margin-right:auto;
             text-align: center;
             height:150px;width:200px;
+            margin-left:auto;
+            margin-right:auto;
+      
         }
         #modules{
 
@@ -146,7 +161,9 @@
 
             margin-bottom:8%;
         }
-        
+        #buttonheading{
+            text-align:center;
+        }
     
 
 
