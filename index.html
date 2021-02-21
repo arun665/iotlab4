@@ -17,7 +17,8 @@
     
     <link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <title>Document</title>
 
    
@@ -27,7 +28,7 @@
 
     
 <ul id="header" >
-    <li class="menuitem"  ><a  id="brand"  href="#home"> <img src="logoimg.png" id="logoimg"  /> <img src="logo.png" id="logo"  /> </a></li>
+    <li class="menuitem"  ><a  id="brand"  href="#home">  <img src="logoimg.png" id="logoimg"  /> <img src="logo.png" id="logo"  /> </a></li>
   
  
     <li class="menuitem" style="float:right;"><a href="#about" >   <img src="profile.png" id="profile"  /></a></li>
@@ -41,24 +42,25 @@
 
 
 <div  id="student">
- 
-    <div class="col-md-7 col-sm-7 col-xs-12" style=" position: relative;" >
+
+    <div class="col-sm-7 col-md-7 col-xs-12" style="width:100%;" >
     
         <div  id="studentbox">
-          <table style="border-collapse: separate;"> 
+          <table style="border-collapse: separate;font-family: 'Roboto Condensed', sans-serif;"> 
             <tr>
             <td>
               <div style="margin-right:5%;">
-            <h1 style="color:#007FEB;font-weight:bold;opacity:1;" id="studentboxheading"> STUDENT PACKAGE </h1>
+            <h1 style="color:#007FEB;font-weight:600;opacity:1;" id="studentboxheading"> STUDENT PACKAGE </h1>
           </div>  
           </td>
-            <td >
+            <td style="padding-left:20px;">
 
             <div class="vl" style="margin-left: auto;margin-right: auto;"></div>
             </td>
             <td>
             <div style="margin-left:10%;">
-              <p style="font-weight:bold;color:black" id="headerp"> Ace your journey of becoming an ioT expert with an interactive hands-on ioT kit developed by experts from IIT</p>
+              <p style="color:black" id="headerp"> Ace your journey of becoming an IoT expert with an interactive hands-on lab kit developed by experts from IIT.
+              </p>
             </div> 
             </td>
             </tr>
@@ -66,111 +68,147 @@
         </div>
       </div>
 
-        <div class="col-sm-5 col-md-3 col-xs-12 " id="buttons" >
-          <button  class="b1" id="button1" style="font-weight:bold;"> ADD TO CART </button>
+        <div class="col-sm-5 col-md-4 col-xs-12 " id="buttons" style="width:100%;">
+          <button  class="b1" id="button1" style="font-family: 'Roboto Condensed', sans-serif;"> ADD TO CART </button>
       <BR>
         
-          <button class="b2"  id="button2" style="font-weight:bold;"> BUY NOW </button>
+          <button class="b2"  id="button2" style="font-family: 'Roboto Condensed', sans-serif;"> BUY NOW </button>
         </div>
       
         </div>
+      
 </div>
 
 <div class="hl"></div>
 <br>
-<br>
+
 
 <div class="container-fluid" style="width:90%;" id="container2" >
 
   <div class="heading">
 
-    <h2 id="heading1" style="font-weight:bold;"> KEY FEATURES </h2>
+    <h2 id="heading1" style="font-weight:bold;font-family: 'Roboto Condensed', sans-serif;color:#474747"> KEY FEATURES </h2>
 
   </div>
 
-  <div class="row" style="margin-top:2%;text-align: center; width:100%; margin-left: auto;margin-right: auto;">
+  <div class="row" style="margin-top:2%;text-align: center; width:100%; margin-left: auto;margin-right: auto;font-family: 'Roboto Condensed', sans-serif;">
     <div class="col-sm-1 col-md-0" id="temp"></div>
     
     <div class="col-sm-6 col-md-2 col-xs-12" id="tempdiv">
     
-      <div class="card" style="border:0px solid red;" id="card1">
+      <div class="card" style="border:0px solid red;" id="card1" >
+        <div id="cardtempwidth">
         <img class="card-img-top" src="1.png" alt="Card image"  style="width:70%;margin-left: auto;margin-right: auto;" >
-        <div class="card-body">
-          <h5 class="card-title" style="font-weight: bold;;"> Industry 4.0 Learning</h5>
-          <p class="card-text">Encompasses LoRa, BLE,NB-IoT, WiFi and varioussensors
+        </div>
+        <div class="card-body" id="cardtempwidth">
+          <h4  style=" width:80%;font-weight: bold;margin-left: auto;margin-right: auto;"> Industry 4.0 Learning</h4>
+          <p  style="width:100%;overflow:visible;;font-size:15px;font-weight:bold;margin-left: auto;margin-right: auto;">Encompasses LoRa, BLE,
+           <br> NB-IoT, WiFi and various
+            sensors.
+            
           </p>
     
         </div>
       </div>
     </div>
+  
+
     <div class="col-sm-6 col-md-2 col-xs-12" id="tempdiv">
-      <div class="card" style="border:0px solid red;" id="card1">
-        <img class="card-img-top" src="2.png" alt="Card image"  style="width:70%;margin-left: auto;margin-right: auto;"> 
-        <div class="card-body">
-          <h5 class="card-title" style="font-weight: bold;;"> Industry Grade Iot Kit</h5>
-          <p class="card-text">
-           It comprises all the equipment needed and topic-wise videos,PDFs, and evaluations.
-     
+    
+      <div class="card" style="border:0px solid red;" id="card1" >
+        <div id="cardtempwidth">
+        <img class="card-img-top" src="2.png" alt="Card image"  style="width:70%;margin-left: auto;margin-right: auto;" >
+        </div>
+        <div class="card-body" id="cardtempwidth">
+          <h4  style=" width:80%;font-weight: bold;margin-left: auto;margin-right: auto;"> Industry Grade
+            IoT Kit</h4>
+          <p  style="width:100%;overflow:visible;;font-size:15px;font-weight: 600;margin-left: auto;margin-right: auto;">
+            It comprises all the equipment
+needed and topic-wise videos,
+PDFs, and evaluations.
+
+            
           </p>
+    
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-sm-6 col-md-2 col-xs-12" id="tempdiv">
+    
+      <div class="card" style="border:0px solid red;" id="card1" >
+        <div id="cardtempwidth">
+        <img class="card-img-top" src="3.png" alt="Card image"  style="width:70%;margin-left: auto;margin-right: auto;" >
+        </div>
+        <div class="card-body" id="cardtempwidth">
+          <h4  style=" width:80%;font-weight: bold;margin-left: auto;margin-right: auto;"> 
+            Designed by IIT 
+            Professors</h4>
+          <p  style="width:100%;overflow:visible;;font-size:15px;font-weight: 600;margin-left: auto;margin-right: auto;">
+            It leverages your IoT expertise
+            and makes you industry-ready.
+            
+            
+          </p>
+    
+        </div>
+      </div>
+    </div>
+
       
-        </div>
-      </div>
-  
-    </div>
     <div class="col-sm-6 col-md-2 col-xs-12" id="tempdiv">
-      <div class="card" style="border:0px solid red;" id="card1">
-        <img class="card-img-top" src="3.png" alt="Card image" style="width:70%;margin-left: auto;margin-right: auto;">
-        <div class="card-body">
-          <h5 class="card-title" style="font-weight: bold;;"> Designed By IIT Professors</h5>
-          <p class="card-text">It leverages your IoT expertise and makes you industry-ready.
-
-          </p>
-  
+    
+      <div class="card" style="border:0px solid red;" id="card1" >
+        <div id="cardtempwidth">
+        <img class="card-img-top" src="4.png" alt="Card image"  style="width:70%;margin-left: auto;margin-right: auto;" >
         </div>
-      </div>
-  
-    </div>
-    <div class="col-sm-6 col-md-2 col-xs-12" id="tempdiv">
-      <div class="card" style="border:0px solid red;" id="card1">
-        <img class="card-img-top" src="4.png" alt="Card image"  style="width:70%;margin-left: auto;margin-right: auto;"> 
-        <div class="card-body">
-          <h5 class="card-title" style="font-weight: bold;;">Real World Projects </h5>
-          <p class="card-text">
-
-   Develop dynamic projects like smart street lights, etc in this course.
-
+        <div class="card-body" id="cardtempwidth">
+          <h4  style=" width:80%;font-weight: bold;margin-left: auto;margin-right: auto;"> 
+            Real-World
+            Projects</h4>
+          <p  style="width:100%;overflow:visible;;font-size:15px;font-weight: 600;margin-left: auto;margin-right: auto;">
+            Develop dynamic projects
+            like smart street lights, etc
+            in this course.
             
-
-          </p>
-  
-        </div>
-      </div>
-  
-    </div>
-    <div class="col-sm-6 col-md-2 col-xs-12" id="tempdiv">
-      <div class="card" style="border:0px solid red;" id="card1">
-        <img class="card-img-top" src="5.png" alt="Card image"  style="width:70%;margin-left: auto;margin-right: auto;" > 
-        <div class="card-body">
-          <h5 class="card-title" style="font-weight: bold;;"> No Pre-requistes</h5>
-          <p class="card-text">
- Benefit from this exclusive course with  zero pre-requisites.
-     
             
-
+            
           </p>
-
+    
         </div>
       </div>
-  
     </div>
   
+    <div class="col-sm-6 col-md-2 col-xs-12" id="tempdiv">
+    
+      <div class="card" style="border:0px solid red;" id="card1" >
+        <div id="cardtempwidth">
+        <img class="card-img-top" src="5.png" alt="Card image"  style="width:70%;margin-left: auto;margin-right: auto;" >
+        </div>
+        <div class="card-body" id="cardtempwidth">
+          <h4  style=" width:80%;font-weight: bold;margin-left: auto;margin-right: auto;"> 
+            No<br>
+            Pre-requisites</h4>
+          <p  style="width:100%;overflow:visible;;font-size:15px;font-weight: 600;margin-left: auto;margin-right: auto;">
+            Learners of all levels can
+            benefit from this course with
+            absolutely no pre-requisites.
+            
+            
+          </p>
+    
+        </div>
+      </div>
+    </div>
+  
+    
    
   
   </div>     
 
 </div>
 
-<div class="hl"></div>
+<div class="hl" style="margin-top:1%;"></div>
 <br>
 <br>
 
@@ -187,52 +225,60 @@
  <img src="legend.png"  id="legend1" /> 
   </legend>
   <img src="legend.png"  id="tempimg1" style="height:200px;width:250px;position:absolute;overflow:visible;top:-70px;" />
-  <h1 class="legendheading2 legendheading" STYLE="font-weight:bold; font-weight: bold;" >   BENEFITS OF THE COURSE </h1>
+  <h1 class="legendheading2 legendheading" STYLE="font-weight:bold; font-weight: bold;font-family: 'Roboto Condensed', sans-serif;" >   BENEFITS OF THE COURSE </h1>
   
   
-  <table  style="font-size:25px;font-weight:bold;    font-family: Alata; border-spacing:10px;
+  <table  style="font-size:25px;font-weight:bold;    font-family: 'Roboto Condensed', sans-serif;; border-spacing:30px;
   border-spacing: 15px;float:left;">
-        <tr style="color:black;margin-bottom:10px;"> 
-          <td style="vertical-align: top;" > <img src="bullet2.png"   /></td>
-          <td> Encompasses cutting edge technologies like LoRa,BLE,WiFi and variouskinds of sensors microcontroller and programmer</td> </tr>
-       <br>
-     
+        <tr style="color:rgb(77, 76, 76);margin-bottom:30px;"> 
+          <td style="vertical-align: top;padding-right:15px;" > <img src="bullet2.png"   /></td>
+          <td style="padding-bottom:20px;">Encompasses cutting edge technologies like LoRa, BLE, WiFi, and various kinds of sensors, microcontroller, and programmer.</td> </tr>
+    
         
 
-        <tr style="color:black;margin-bottom:30px;">
+        <tr style="color:rgb(77, 76, 76);margin-bottom:30px;">
           <td style="vertical-align: top;">
             <img src="bullet2.png"  />
         </td>
-        <td> Includes numerous real-world projects to give an extensive hands -on experience on these technologies
+        <td style="padding-bottom:20px;">Includes numerous real-world projects to give an extensive hands-on experience on these technologies.
     </td>
         </tr>
     
        
    
-        <tr style="color:black;margin-bottom:10px;">
+        <tr style="color:rgb(77, 76, 76);margin-bottom:10px;">
           <td style="vertical-align: top;"><img src="bullet2.png"  /></td>
-          <td>
-     Continuous all monitored evaluation throughout the course ensure consistent Learning </td>
+          <td style="padding-bottom:20px;">
+            Continuous AI monitored evaluations throughout the course ensure consistent learning.</td>
      
        </tr> 
-        <tr style="color:black;margin-bottom:10px;">
+        <tr style="color:rgb(77, 76, 76);margin-bottom:10px;">
           <td style="vertical-align: top;"> <img src="bullet2.png"  /></td>
-          <td>  The idea generation stage enables you to shape your ideas amd brong them into reality , making you at per industry standards </td></tr>
+          <td style="padding-bottom:20px;"> 
+            The idea generation stage enables you to shape your ideas and bring them into reality, making you at par with industry standards.
+          </td></tr>
     
      
-   <tr style="color:black;margin-bottom:10px;">
+   <tr style="color:rgb(77, 76, 76);margin-bottom:10px;">
     <td style="vertical-align: top;"><img src="bullet2.png"  />
       </td>
-      <td > the devices in the course kit have been custom developed for this course and hence are tje best fit for an enhancing learning experience </td> </tr>
+      <td style="padding-bottom:20px;">   The devices in the course kit have been custom developed for this course, and hence are the best fit for an enriching learning experience.</td> </tr>
         <br>
  
      
-        <tr style="color:black;margin-bottom:10px;">
+        <tr style="color:rgb(77, 76, 76);margin-bottom:10px;">
           <td style="vertical-align: top;"><img src="bullet2.png"  /></td>
-          <td>
-         Potential IoT ideas developed during this course can avail funding opportunities for working on their ideas.</td>
+          <td style="padding-bottom:20px;">
+            Best performers of the course will be given internship opportunities in IoT companies.</td>
      
-       </tr>    
+       </tr> 
+       
+       <tr style="color:rgb(77, 76, 76);margin-bottom:10px;">
+        <td style="vertical-align: top;"><img src="bullet2.png"  /></td>
+        <td style="padding-bottom:20px;">
+          Potential IoT ideas developed during this course can avail funding opportunities for working on their ideas.</td>
+   
+     </tr> 
   </table>
 </fieldset>
 </div>
@@ -242,13 +288,13 @@
 <div class="hl"></div>
 
 <br>
-<br>
+
 <div class="col-md-10 col-sm-1"></div>
-<h1 class="legendheading" STYLE="position:relative;text-align:center;font-weight:bold;margin-bottom:1%;  font-WEIGHT:BOLD;"> COURSE DELIVERABLES </h1>
+<h1 class="legendheading" STYLE="position:relative;text-align:center;font-weight:bold;margin-bottom:1%;  font-WEIGHT:BOLD;font-family: 'Roboto Condensed', sans-serif;"> COURSE DELIVERABLES </h1>
 
 
 
-<div class="container" >
+<div class="container" style="font-family: 'Roboto Condensed', sans-serif;">
 
 <table  class="table3" style="margin-left:auto;margin-right: auto; border-collapse:  separate;border-spacing: 10px;">
   <tr>
@@ -257,7 +303,7 @@
 <div class="row">
 
     <div class="col-sm-12 col-md-4 col-xs-12" > <img src="b1.png" id="b" /></div>
-    <div class="col-sm-12 col-md-7 col-xs-12" style="margin-top: auto;margin-bottom: auto;margin-right:0px;">  <h3 id="buttonheading" style="font-weight:bold;"> Study Modules </h3>  </div>
+    <div class="col-sm-12 col-md-7 col-xs-12" id="temppadding" style="margin-top: auto;margin-bottom: auto;margin-right:0px;">  <h3 id="buttonheading" > Study Modules </h3>  </div>
   </div>
 </button>
 
@@ -268,7 +314,7 @@
 <div class="row">
 
     <div class="col-sm-12 col-md-5 col-xs-12"> <img src="b2.png" id="b" /></div>
-    <div class="col-sm-12 col-md-7 col-xs-12" style="margin-top: auto;margin-bottom: auto;"> <h3 id="buttonheading"  style="font-weight:bold;"> Dynamic Projects  </h3> </div>
+    <div class="col-sm-12 col-md-7 col-xs-12" style="margin-top: auto;margin-bottom: auto;"> <h3 id="buttonheading"  > Dynamic Projects  </h3> </div>
   </div>
 </button>
 </td>
@@ -278,7 +324,7 @@
 <div class="row">
 
     <div class="col-sm-12 col-md-5 col-xs-12" > <img src="b3.png" id="b" /></div>
-    <div class="col-sm-12 col-md-7 col-xs-12" style="margin-top: auto;margin-bottom: auto;"> <p id="buttonpara" style="font-weight:bold;"> Industry Grade</p>  <h3 id="buttonheading" style="font-weight:bold;" >IoT Kit</h3> </div>
+    <div class="col-sm-12 col-md-7 col-xs-12" style="margin-top: auto;margin-bottom: auto;">  <h3 id="buttonheading" style="font-weight: bold;" > <p id="buttonpara" style="font-size: 20px;;"> Industry Grade</p>  IoT Kit</h3> </div>
   </div>
 </button>
 </td>
@@ -292,7 +338,7 @@
  
   <div class="row"  id="btnrow2" style="margin-left: auto;margin-right: auto;">
 <div class="col-md-1"></div>
-    <div class="col-sm-12 col-md-5 col-xs-12" > 
+    <div class="col-sm-12 col-md-5 col-xs-12"  > 
 <table style="border-collapse:separate;border-spacing: 10px;text-align: center;margin-right: auto;margin-left: auto;">
 
 <tr>
@@ -302,7 +348,7 @@
   <div class="row">
   
       <div class="col-sm-12 col-md-12 col-xs-12" > <img src="a1.png" id="c" /> </div>
-      <div class="col-sm-12 col-md-12 col-xs-12" style="margin-top: auto;margin-bottom: auto;"> <h3 id="buttonheading2"> Video Lectures</h3></div>
+      <div class="col-sm-12 col-md-12 col-xs-12" style="margin-top: auto;margin-bottom: auto;"> <h4 id="buttonheading2"> Video Lectures</h4></div>
     </div>
   </button>
   </td>
@@ -312,7 +358,7 @@
   <div class="row">
   
       <div class="col-sm-12 col-md-12 col-xs-12" > <img src="a2.png" id="c" /> </div>
-      <div class="col-sm-12 col-md-12 col-xs-12" style="margin-top: auto;margin-bottom: auto;"> <h3 id="buttonheading2"> Module PDFs</h3></div>
+      <div class="col-sm-12 col-md-12 col-xs-12" style="margin-top: auto;margin-bottom: auto;"> <h4 id="buttonheading2"> Module PDFs</h4></div>
     </div>
   </button>
   </td>
@@ -322,7 +368,9 @@
 </table>
 
     </div>
-    <div class="col-sm-12 col-md-4 col-xs-12" style=" margin-top: auto;margin-bottom: auto;"> 
+
+
+    <div class="col-sm-12 col-md-4 col-xs-12" style=" margin-top:auto;margin-bottom: auto;"> 
     
       <table  style="border-collapse:separate;border-spacing: 10px;text-align: center;margin-right: auto;margin-left: auto;">
 
@@ -333,7 +381,7 @@
           <div class="row">
           
               <div class="col-sm-12 col-md-12 col-xs-12" > <img src="a3.png" id="c" /> </div>
-              <div class="col-sm-12 col-md-12 col-xs-12" style="margin-top: auto;margin-bottom: auto;">  <h3 id="buttonheading2"> Module Quizzes </h3></div>
+              <div class="col-sm-12 col-md-12 col-xs-12" style="margin-top: auto;margin-bottom: auto;">  <h4 id="buttonheading2"> Module Quizzes </h4></div>
             </div>
           </button>
           </td>
@@ -343,7 +391,7 @@
           <div class="row">
           
               <div class="col-sm-12 col-md-12 col-xs-12" > <img src="a4.png" id="c" /> </div>
-              <div class="col-sm-12 col-md-12 col-xs-12" style="margin-top: auto;margin-bottom: auto;"> <h3 id="buttonheading2"> Codes </h3></div>
+              <div class="col-sm-12 col-md-12 col-xs-12" style="margin-top: auto;margin-bottom: auto;"> <h4 id="buttonheading2"> Codes </h4></div>
             </div>
           </button>
           </td>
@@ -366,11 +414,11 @@
 
 
 <br>
-<br>
+
 
 <div class="container">
   
-  <div class="row">
+  <div class="row" style="font-family: 'Roboto Condensed', sans-serif;">
     <div class="col-sm-6 col-xs-12 col-md-6"  id="modules">
     
        
@@ -379,27 +427,32 @@
   
     <div class="card-body" style="font-size:22px;">
 
-      <h2 style="text-decoration-style:underline;font-weight:bold"> MODULES </h2>
+      <h2  class="moduleheading" style="font-weight:bold"> MODULES </h2>
       
  
-      <hr class="rounded" style=" border-top: 8px solid #808080;width:60%;border-radius: 5px;">
-   
-      Introductory <br>
-      Microcontrollers and Programming <br>
-      IoT and communications <br>
-      Basics of WiFi <br>
-      Bluetooth Love Energy(BLE).<br>
-      Introductio to LoRa <br>
-      Introduction to NB-IOT <br>
-      Memory and its Types <br>
-      Temperature and Humidity sensors <br>
-      Motion and Proximaly sensors<br>
-      Pressure sensor<br>
-      Relay and its Applications <br>
-      Fire,LPG/CNG sensors<br>
-      LED,Buzzer,and Motor<br>
-    </div>
+      <div class="rounded" style="margin-right: auto;margin-left: auto; border-top: 6px solid #808080;width:60%;">
+      </div>
 
+      <div class="divs2" style="vertical-align: middle;">
+        
+      Introductory
+      <br>
+      Microcontrollers and Programming <br>
+      IoT and Communication <br>
+      Basics of WiFi<br>
+      Bluetooth Low Energy (BLE)<br>
+      Introduction to LoRa <br>
+      Introduction to NB-IoT
+      <br>
+      Memory and its Types<br>
+      Temperature and Humidity Sensors <br>
+      Motion and Proximity Sensors<br>
+      Pressure Sensor<br>
+      Relay and its Applications <br>
+      Fire, LPG/PNG Sensors<br>
+      LED, Buzzer, and Motor<br>
+    </div>
+  </div>
   </fieldset>
 
     
@@ -409,22 +462,30 @@
     
       <fieldset class="card" id="projectcard" style="background-color: rgba(92,106,119,0.2);">
         <legend class="legend2" >  <img src="legend.png" style="height:150px;width:220px;"/>  </legend>
-        <div class="card-body" style="font-weight:bold;font-size:20px;">
+        <div class="card-body" style="font-weight:bold;font-size:22px;">
     
-          <h2 style="text-decoration-style:underline;font-WEIGHT:BOLD"> PROJECTS </h2>
-          <hr class="rounded" style=" border-top: 8px solid #808080;width:60%;border-radius: 5px;">
-      
-          Smart Dustbin <br>
-          Smart Street light <br>
-          Smart Home Switch <br>
-          Temperature Logging Device <br>
-          Smart CNG Detectors for cars<br>
-          Smart Environmet Monitoring systems <br>
-          Smart Fire Detection System<br>
-          Smart Securtiy Device for Homes<br>
-          Smarrt PArking Sensor <br>
-          Snti theft System for cupboards <br>
-       
+          <h2 class="projectheading" style="font-WEIGHT:BOLD"> PROJECTS </h2>
+          <div class="rounded" style="margin-right: auto;margin-left: auto; border-top: 6px solid #808080;width:60%;">
+      </div>
+
+      <div class="divs3">
+          Smart Dustbin<br>
+          Smart Street Light<br>
+          Smart Home Switch<br>
+          Temperature Logging Device
+          <br>
+          Smart CNG Detectors for Cars
+          <br>
+          Smart Environment Monitoring System
+ <br>
+ Smart Fire Detection System
+ <br>
+ Smart Security Device for Homes
+ <br>
+ Smart Parking Sensor
+ <br>
+ Anti-theft System for Cupboards <br>
+       </div>
                   </div>
     
       </fieldset>
@@ -441,34 +502,35 @@
 <div class="container" style="width:90%;margin-left:auto;margin-right: auto;">
 
   
-<fieldset  style="border-radius:20px;width:100%;font-weight: bold;;" id="card3">
+<fieldset  style="border-radius:20px;width:100%;font-weight: bold;font-family: 'Roboto Condensed', sans-serif;;" id="card3">
 
   <legend class="legend3"> 
     <img src="iot.png" /> 
    </legend>
-  <div class="heading" style="text-align:center; margin-bottom: 2%;">
+  <div id="heading1" style="text-align:center; margin-bottom: 2%;">
     <h1 style="color:BLACK;font-weight:bold"> IOT KIT CONTENTS </h1>
   
   </div>
- <div class="row" style="width:100%;margin-left: auto;margin-right: auto;">
-  <div class="col-md-1"></div>
+ <div class="row" style="width:100%;margin-left: auto;margin-right: auto;color:rgb(77, 76, 76)">
+ 
     <div class="col-sm-5 col-xs-12 col-md-5" >
     
-<table  id="iottable" style=" font-family: Alata;WIDTH:100%">
+<table  id="iottable" style="font-family: 'Roboto Condensed', sans-serif;WIDTH:100%;color:rgb(77, 76, 76)">
 <tr>
-  <td style="width:322px;"> MCU  Dev Board </td>
+  <td style="width:322px;"> MCU Dev Board </td>
   <td STYLE="TEXT-ALIGN:RIGHT;">1</td>
 </tr>
 <tr>
-  <td> BLE Mobile </td>
+  <td> BLE Module
+  </td>
   <td STYLE="TEXT-ALIGN:RIGHT;">1</td>
 </tr>
 <tr>
-  <td> LoRa DevBoard </td>
+  <td> LoRa Dev Board </td>
   <td STYLE="TEXT-ALIGN:RIGHT;">2</td>
 </tr>
 <tr>
-  <td> NB-IoT Module </td>
+  <td>B-IoT Module</td>
   <td STYLE="TEXT-ALIGN:RIGHT;">1</td>
 </tr>
 <tr>
@@ -476,11 +538,19 @@
   <td STYLE="TEXT-ALIGN:RIGHT;">1</td>
 </tr>
 <tr>
-  <td> Programmer  </td>
+  <td>Programmer </td>
   <td STYLE="TEXT-ALIGN:RIGHT;">1</td>
 </tr>
 <tr>
-  <td> Moemory Module </td>
+  <td> Memory Module </td>
+  <td STYLE="TEXT-ALIGN:RIGHT;">1</td>
+</tr>
+<tr>
+  <td> Temperature Sensor </td>
+  <td STYLE="TEXT-ALIGN:RIGHT;">1</td>
+</tr>
+<tr>
+  <td> Humidity Sensor </td>
   <td STYLE="TEXT-ALIGN:RIGHT;">1</td>
 </tr>
 <tr>
@@ -500,15 +570,15 @@
 
     
     </div>
-    <div class="col-sm-2 col-xs-12 col-md-1" >
+    <div class="col-sm-2 col-xs-12 col-md-2" >
       <div class="vl divider2"  ></div>
     </div>
 
     <div class="col-sm-5 col-xs-12 col-md-5" >
     
-      <table id="iottable"  style=" font-family: Alata;WIDTH:100%;">
+      <table id="iottable"  style=" font-family: 'Roboto Condensed', sans-serif;;WIDTH:100%;color:rgb(77, 76, 76)">
         <tr>
-          <td style="width:322px;TEXT-ALIGN:LEFT;"> Proximily Sensor </td>
+          <td style="width:322px;TEXT-ALIGN:LEFT;"> Proximity Sensor </td>
           <td STYLE="TEXT-ALIGN:RIGHT;">2</td>
         </tr>
         <tr>
@@ -520,7 +590,7 @@
           <td STYLE="TEXT-ALIGN:RIGHT;">2</td>
         </tr>
         <tr>
-          <td> Fire Director Sensor </td>
+          <td> Fire Detector Sensor </td>
           <td STYLE="TEXT-ALIGN:RIGHT;">1</td>
         </tr>
         <tr>
@@ -528,7 +598,7 @@
           <td STYLE="TEXT-ALIGN:RIGHT;">1</td>
         </tr>
         <tr>
-          <td> Jumper Wires  </td>
+          <td>Jumper wires </td>
           <td STYLE="TEXT-ALIGN:RIGHT;">1</td>
         </tr>
         <tr>
@@ -536,11 +606,19 @@
           <td STYLE="TEXT-ALIGN:RIGHT;">1</td>
         </tr>
         <tr>
-          <td> Buzzer </td>
+          <td> Buzzer</td>
           <td STYLE="TEXT-ALIGN:RIGHT;">1</td>
         </tr>
         <tr>
-          <td> LED,Resistor </td>
+          <td>LED, Resistor </td>
+          <td STYLE="TEXT-ALIGN:RIGHT;">1</td>
+        </tr>
+        <tr>
+          <td>Motor (Types of motor) </td>
+          <td STYLE="TEXT-ALIGN:RIGHT;">1</td>
+        </tr>
+        <tr>
+          <td>Sensor Shield</td>
           <td STYLE="TEXT-ALIGN:RIGHT;">1</td>
         </tr>
         
