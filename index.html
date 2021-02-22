@@ -68,7 +68,7 @@
         </div>
       </div>
 
-        <div class="col-sm-5 col-md-4 col-xs-12 " id="buttons" style="width:100%;">
+        <div class="col-sm-4 col-md-4 col-xs-12 " id="buttons" style="width:100%;">
           <button  class="b1" id="button1" style="font-family: 'Roboto Condensed', sans-serif;"> ADD TO CART </button>
       <BR>
         
@@ -83,7 +83,7 @@
 <br>
 
 
-<div class="container-fluid" style="width:80%;" id="container2" >
+<div class="container-fluid"  id="container2" >
 
   <div class="heading">
 
@@ -92,7 +92,7 @@
   </div>
 
   <div class="row" style="margin-top:2%;text-align: center; width:100%; margin-left: auto;margin-right: auto;font-family: 'Roboto Condensed', sans-serif;">
-    <div class="col-sm-1 col-md-0" id="temp"></div>
+    <div class="col-md-0" id="temp"></div>
     
     <div class="col-sm-6 col-md-2 col-xs-12" id="tempdiv">
     
@@ -101,8 +101,8 @@
         <img class="card-img-top" src="1.png" alt="Card image"  style="width:70%;margin-left: auto;margin-right: auto;" >
         </div>
         <div class="card-body" id="cardtempwidth">
-          <h4  style=" width:80%;font-weight: bold;margin-left: auto;margin-right: auto;"> Industry 4.0 Learning</h4>
-          <p  style="width:100%;overflow:visible;;font-size:15px;font-weight:bold;margin-left: auto;margin-right: auto;">Encompasses LoRa, BLE,
+          <h4 id="tempdivheading"> Industry 4.0 Learning</h4>
+          <p  id="tempdivpara" >Encompasses LoRa, BLE,
            <br> NB-IoT, WiFi and various
             sensors.
             
@@ -120,9 +120,9 @@
         <img class="card-img-top" src="2.png" alt="Card image"  style="width:70%;margin-left: auto;margin-right: auto;" >
         </div>
         <div class="card-body" id="cardtempwidth">
-          <h4  style=" width:80%;font-weight: bold;margin-left: auto;margin-right: auto;"> Industry Grade
+          <h4  id="tempdivheading"> Industry Grade
             IoT Kit</h4>
-          <p  style="width:100%;overflow:visible;;font-size:15px;font-weight: 600;margin-left: auto;margin-right: auto;">
+          <p   id="tempdivpara">
             It comprises all the equipment
 needed and topic-wise videos,
 PDFs, and evaluations.
@@ -141,10 +141,10 @@ PDFs, and evaluations.
         <img class="card-img-top" src="3.png" alt="Card image"  style="width:70%;margin-left: auto;margin-right: auto;" >
         </div>
         <div class="card-body" id="cardtempwidth">
-          <h4  style=" width:80%;font-weight: bold;margin-left: auto;margin-right: auto;"> 
+          <h4  id="tempdivheading"> 
             Designed by IIT 
             Professors</h4>
-          <p  style="width:100%;overflow:visible;;font-size:15px;font-weight: 600;margin-left: auto;margin-right: auto;">
+          <p   id="tempdivpara">
             It leverages your IoT expertise
             and makes you industry-ready.
             
@@ -163,10 +163,10 @@ PDFs, and evaluations.
         <img class="card-img-top" src="4.png" alt="Card image"  style="width:70%;margin-left: auto;margin-right: auto;" >
         </div>
         <div class="card-body" id="cardtempwidth">
-          <h4  style=" width:80%;font-weight: bold;margin-left: auto;margin-right: auto;"> 
-            Real-World
+          <h4  id="tempdivheading"> 
+            Real-World <br>
             Projects</h4>
-          <p  style="width:100%;overflow:visible;;font-size:15px;font-weight: 600;margin-left: auto;margin-right: auto;">
+          <p  id="tempdivpara">
             Develop dynamic projects
             like smart street lights, etc
             in this course.
@@ -186,10 +186,10 @@ PDFs, and evaluations.
         <img class="card-img-top" src="5.png" alt="Card image"  style="width:70%;margin-left: auto;margin-right: auto;" >
         </div>
         <div class="card-body" id="cardtempwidth">
-          <h4  style=" width:80%;font-weight: bold;margin-left: auto;margin-right: auto;"> 
+          <h4  id="tempdivheading"> 
             No<br>
             Pre-requisites</h4>
-          <p  style="width:100%;overflow:visible;;font-size:15px;font-weight: 600;margin-left: auto;margin-right: auto;">
+          <p   id="tempdivpara">
             Learners of all levels can
             benefit from this course with
             absolutely no pre-requisites.
@@ -217,14 +217,14 @@ PDFs, and evaluations.
 
 
 <div style="margin-left:auto;margin-right:auto;">
-<div class="container"> 
+<div class="container-fluid"> 
 <fieldset class="col-sm-12 col-md-12 col-xs-12" id="fieldset1" style="background-color: rgba(0,138,255,0.2);border-radius:65px;padding:6%;padding-left:8%;padding-right:8%;margin-left: auto;margin-right: auto;" >
 
 
-  <legend >
+  <legend style="text-align: center;">
  <img src="legend.png"  id="legend1" /> 
   </legend>
-  <img src="legend.png"  id="tempimg1" style="height:200px;width:250px;position:absolute;overflow:visible;top:-70px;" />
+  <img src="legend.png"  id="tempimg1"  />
   <h1 class="legendheading2 legendheading" STYLE="font-weight:bold; font-weight: bold;font-family: 'Roboto Condensed', sans-serif;" >   BENEFITS OF THE COURSE </h1>
   
   
@@ -426,11 +426,11 @@ PDFs, and evaluations.
 
 <div class="container">
   
-  <div class="row" style="font-family: 'Roboto Condensed', sans-serif;">
+  <div class="row" style="font-family: 'Roboto Condensed', sans-serif;" id="container3">
     <div class="col-sm-6 col-xs-12 col-md-6"  id="modules">
     
        
-  <fieldset class="card" id="modulescard" style="background-color: rgba(92,106,119,0.2);">
+  <fieldset class="card" id="modulescard" style="background-color: rgba(92,106,119,0.2);overflow:hidden">
     <legend class="legend2">  <img src="modules.png" style="height:150px;width:220px;" />  </legend>
   
     <div class="card-body" style="font-size:22px;">
@@ -442,7 +442,7 @@ PDFs, and evaluations.
       </div>
 
       <div class="divs2" style="vertical-align: middle;">
-        
+        <p style="vertical-align: middle;">
       Introductory
       <br>
       Microcontrollers and Programming <br>
@@ -459,6 +459,7 @@ PDFs, and evaluations.
       Relay and its Applications <br>
       Fire, LPG/PNG Sensors<br>
       LED, Buzzer, and Motor<br>
+      </p>
     </div>
   </div>
   </fieldset>
@@ -477,6 +478,7 @@ PDFs, and evaluations.
       </div>
 
       <div class="divs3">
+        <p style="vertical-align: middle;">
           Smart Dustbin<br>
           Smart Street Light<br>
           Smart Home Switch<br>
@@ -493,6 +495,7 @@ PDFs, and evaluations.
  Smart Parking Sensor
  <br>
  Anti-theft System for Cupboards <br>
+ </p>
        </div>
                   </div>
     
@@ -507,7 +510,7 @@ PDFs, and evaluations.
 <br>
 <br>
 
-<div class="container" style="margin-left:auto;margin-right: auto;" id="iotcontents">
+<div class="container" style="margin-left:auto;margin-right: auto;" >
 
   
 <fieldset  style="border-radius:20px;width:100%;font-weight: bold;font-family: 'Roboto Condensed', sans-serif;;" id="card3">
@@ -516,7 +519,7 @@ PDFs, and evaluations.
     <img src="iot.png" /> 
    </legend>
   <div id="heading1" style="text-align:center; margin-bottom: 2%;">
-    <h1 style="color:BLACK;font-weight:bold"> IOT KIT CONTENTS </h1>
+    <h1 style="color:BLACK;font-weight:bold;font-family: 'Roboto Condensed'"> IOT KIT CONTENTS </h1>
   
   </div>
  <div class="row" style="width:100%;margin-left: auto;margin-right: auto;color:rgb(77, 76, 76)">
@@ -693,7 +696,7 @@ PDFs, and evaluations.
        
       <fieldset class="card" id="card4" style="background-color: #80c1ff; padding:3%;border-radius: 50px; FONT-SIZE:22PX;
     ">
-        <legend class="legend4" >  <img src="query.png" style="height:10%; width:40%;text-align:center;" />  </legend>
+        <legend class="legend4" style="margin-left:auto;;margin-right:auto;" >  <img src="query.png" style="height:10%; width:40%;" />  </legend>
       
         <img src="query.png"  id="tempimg2" style="position:absolute;overflow:visible;top:-70px;left:25px;" />
  

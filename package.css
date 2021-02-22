@@ -5,7 +5,7 @@
 background-image: url('student.png');
 border-color: 1px solid blue;
 border-radius: 65px;
-height:600px;
+height:610px;
 width:78%;
 background-size: cover;
 margin-left: auto;
@@ -16,23 +16,22 @@ margin-right: auto;
     }
 
 #studentbox{
-    PADDING:4%;background-color:hsl(0, 0%, 100% , 0.6);border-radius:60px;
+    PADDING:5%;background-color:hsl(0, 0%, 100% , 0.6);border-radius:60px;
     width:100%;
     position: relative;
     margin-left:3%;
-    padding-bottom:2%;
-    padding-top:2%;
+
     margin-bottom:1%;
-top:400px;
+top:360px;
 
 }
 #iotcontents{
-    width:80%;
+    width:75%;
   }
 
 #buttons{
 position: relative;
-top:220px;
+top:180px;
 float:right;
 
 margin-right:5%;
@@ -61,7 +60,7 @@ margin-right:5%;
 margin-right:2.5%;
 }
 #studentboxheading{
-    font-size:55px;
+    font-size:4vw;
 }
 
 .legend4{
@@ -75,13 +74,12 @@ margin-right:2.5%;
     font-size:50px;
     text-align:left;
 }
+
 #secondlastdiv{
     margin-top:10%;
     width:80%;
 }
-#tempgrid{
-    position:absolute;left:42%;;
-}
+
 
 
 
@@ -127,7 +125,7 @@ border-radius: 25px;
 
 .vl {
     border-left: 8px solid grey;
-    height: 110px;
+    height: 130px;
     
   }
 
@@ -151,6 +149,12 @@ border-radius: 25px;
         width:35%;
     }
 
+    #tempdivheading{
+        width:80%;font-weight: bold;margin-left: auto;margin-right: auto;font-size:1.6vw;
+    }
+    #tempdivpara{
+        width:100%;overflow:visible;;font-size:15px;font-weight:bold;margin-left: auto;margin-right: auto;font-size:1vw;
+    }
     #card1{
         width:120%;
         font-weight: bold;;
@@ -161,14 +165,14 @@ border-radius: 25px;
 
 #projectcard{
     height:650px;
-    margin-left: auto;margin-right: auto;text-align:center;background-color:  rgba(235, 234, 234, 0.973); padding:2%;width:85%;border-radius: 75px;font-weight: bold;
+    margin-left: auto;margin-right: auto;text-align:center;background-color:  rgba(235, 234, 234, 0.973); padding:2%;width:95%;border-radius: 75px;font-weight: bold;
 }
 #legend1{
     height:250px;width:300px;
 }
 #modulescard{
     height:650px;
-    margin-left: auto;margin-right: auto;text-align:center;background-color: rgba(235, 234, 234, 0.973); padding:2%;width:85%;border-radius: 75px;font-weight: bold;
+    margin-left: auto;margin-right: auto;text-align:center;background-color: rgba(235, 234, 234, 0.973); padding:2%;width:95%;border-radius: 75px;font-weight: bold;
 }
 
 #cardtempwidth{
@@ -231,18 +235,27 @@ height:120px;
  top:0px;
 }
 .legendheading2{
-    margin-left:28%;
-    margin-top:1.6%;
-    font-size:50px;
+    margin-left:32%;
+    margin-top:0%;
+    font-size:3vw;
+    margin-bottom:55px;
 }
 #fieldset1{
     margin-top:4%;
+    width:75%;
 }
 
 
+#container3{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-
-
+#tempimg1{
+    height:220px;;width:25%;
+    position:absolute;overflow:visible;top:-65px;
+}
 
 #tempimg2{
     height:15vw;width:35%;
@@ -285,6 +298,9 @@ height:120px;
       height:200px;
       width:450px;
   }
+
+  
+
 #buttonheading{
     text-align:left;
 }
@@ -366,6 +382,7 @@ font-family: 'Berkshire Swash';
 }
 #container2{
     margin-bottom:1%;
+    width:80%;
 }
 
 #temppadding{
@@ -392,7 +409,9 @@ font-size:50px;
          width:25px;
      }
     
-     
+     #card3{
+         width:80%;
+     }
  
 
 
@@ -465,7 +484,7 @@ font-size:23px;
   }
   #scrollfaq::-webkit-scrollbar {
     width: 5px;           
-    height:50px;    /* width of the entire scrollbar */
+    height:0px;    /* width of the entire scrollbar */
   }
   
 
