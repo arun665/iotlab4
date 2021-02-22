@@ -5,7 +5,7 @@
 background-image: url('student.png');
 border-color: 1px solid blue;
 border-radius: 65px;
-height:640px;
+height:600px;
 width:78%;
 background-size: cover;
 margin-left: auto;
@@ -23,7 +23,7 @@ margin-right: auto;
     padding-bottom:2%;
     padding-top:2%;
     margin-bottom:1%;
-top:360px;
+top:400px;
 
 }
 #iotcontents{
@@ -32,7 +32,7 @@ top:360px;
 
 #buttons{
 position: relative;
-top:160px;
+top:220px;
 float:right;
 
 margin-right:5%;
@@ -127,7 +127,7 @@ border-radius: 25px;
 
 .vl {
     border-left: 8px solid grey;
-    height: 150px;
+    height: 110px;
     
   }
 
@@ -176,7 +176,7 @@ border-radius: 25px;
 }
 
 #headerp{
-    font-size:1.8vw;
+    font-size:1.5vw;
 }
 
 #table3row {
