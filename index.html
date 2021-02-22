@@ -83,7 +83,7 @@
 <br>
 
 
-<div class="container-fluid" style="width:90%;" id="container2" >
+<div class="container-fluid" style="width:80%;" id="container2" >
 
   <div class="heading">
 
@@ -324,7 +324,7 @@ PDFs, and evaluations.
 <div class="row">
 
     <div class="col-sm-12 col-md-5 col-xs-12" > <img src="b3.png" id="b" /></div>
-    <div class="col-sm-12 col-md-7 col-xs-12" style="margin-top: auto;margin-bottom: auto;">  <h3 id="buttonheading" style="font-weight: bold;" > <p id="buttonpara" style="font-size: 20px;;"> Industry Grade</p>  IoT Kit</h3> </div>
+    <div class="col-sm-12 col-md-7 col-xs-12" style="margin-top: auto;margin-bottom: auto;">  <h3 id="buttonheading"  > <p id="buttonpara" style="font-size: 20px;margin-bottom:2px;;"> Industry Grade</p>  IoT Kit</h3> </div>
   </div>
 </button>
 </td>
@@ -370,7 +370,7 @@ PDFs, and evaluations.
     </div>
 
 
-    <div class="col-sm-12 col-md-4 col-xs-12" style=" margin-top:auto;margin-bottom: auto;"> 
+    <div class="col-sm-12 col-md-4 col-xs-12" style=" margin-top:auto;margin-bottom: auto;" id="tempgrid"> 
     
       <table  style="border-collapse:separate;border-spacing: 10px;text-align: center;margin-right: auto;margin-left: auto;">
 
@@ -414,6 +414,14 @@ PDFs, and evaluations.
 
 
 <br>
+
+
+
+
+
+
+
+
 
 
 <div class="container">
@@ -499,7 +507,7 @@ PDFs, and evaluations.
 <br>
 <br>
 
-<div class="container" style="width:90%;margin-left:auto;margin-right: auto;">
+<div class="container" style="margin-left:auto;margin-right: auto;" id="iotcontents">
 
   
 <fieldset  style="border-radius:20px;width:100%;font-weight: bold;font-family: 'Roboto Condensed', sans-serif;;" id="card3">
@@ -638,8 +646,8 @@ PDFs, and evaluations.
 <br>
 <br>
 
-<div style="width:85%;margin-left: auto;margin-right: auto;" id="secondlastdiv">
-  <div class="row">
+<div style="margin-left: auto;margin-right: auto;" id="secondlastdiv">
+  <div class="row" style="font-family: 'Roboto Condensed', sans-serif;">
     <div class="col-sm-6 col-xs-12 col-md-6" >
     
     
@@ -648,12 +656,12 @@ PDFs, and evaluations.
        
     <fieldset  class="card" id="card4" style="background-color:   rgba(0,138,255,0.2); width:100%;padding:1%;border-radius: 65px;">
       <legend class="legend4" >  <img src="faq.png" style="height:25%;width:40%;" />  </legend>
-      <img src="faq.png"  id="tempimg2" style="height:200px;width:200px;position:absolute;overflow:visible;top:-70px;left:25px;" />
+      <img src="faq.png"  id="tempimg2" style="position:absolute;overflow:visible;top:-70px;left:25px;" />
  
       
-        <h2 id="secondlastcard" style="FONT-WEIGHT:BOLD;color:rgba(58,58,58,1);"> FREQUENTLY ASKED   </h2>
+        <h2 id="secondlastcard" style="font-weight:bold;color:rgba(58,58,58,1);font-family: 'Roboto Condensed', sans-serif;"> FREQUENTLY ASKED   </h2>
         
-      <div class="card-body">
+      <div class="card-body" id="scrollfaq" style="overflow-y: scroll;">
 
         <div style="width:95%;background-color: #3aa3ff1e;margin-left:auto;margin-right:auto;border-radius:10px;margin-bottom:8px;padding:2%;">
           <p style="font-weight: bold;font-size:21px;">1. Question question question  question?? </p>
@@ -684,34 +692,35 @@ PDFs, and evaluations.
     
        
       <fieldset class="card" id="card4" style="background-color: #80c1ff; padding:3%;border-radius: 50px; FONT-SIZE:22PX;
-      FONT-WEIGHT:BOLD;">
+    ">
         <legend class="legend4" >  <img src="query.png" style="height:10%; width:40%;text-align:center;" />  </legend>
       
-        <img src="query.png"  id="tempimg2" style="height:200px;width:200px;position:absolute;overflow:visible;top:-70px;left:25px;" />
+        <img src="query.png"  id="tempimg2" style="position:absolute;overflow:visible;top:-70px;left:25px;" />
  
   
-          <h2 id="secondlastcard" style="foNT-WEIGHT:BOLD;"> CONTACT FOR  QUERIES  </h2>
+          <h2 id="secondlastcard" style="foNT-WEIGHT:BOLD;font-family: 'Roboto Condensed', sans-serif;"> CONTACT FOR  QUERIES  </h2>
           
    
        
         <div class="card-body">
   
-          <div style="width:85%;margin-left:auto;margin-right:auto;border-radius:10px;margin-bottom:1%">
+          <div style="width:85%;margin-left:auto;margin-right:auto;border-radius:10px;margin-bottom:6%">
             
               <label for="fname" style="color:white;">Your Name</label>
-              <br>
+          
             
   
-              <input type="text" id="fname" name="fname" style=" width: 100%;
+              <input type="text" id="fname" name="fname" style=" width: 100%;margin-top:1%;
               background-color: #80c1ff;
               border:0px solid black;
+              height:25px;
               border-bottom:3px solid white;
               color:white;">
             
           </div>
   <br>
   
-          <div style="width:85%;margin-left:auto;margin-right:auto;border-radius:10px;margin-bottom:1%">
+          <div style="width:85%;margin-left:auto;margin-right:auto;border-radius:10px;margin-bottom:6%">
             
             <label for="fname" style="color:white;">E-mail ID</label>
             <br>
@@ -719,7 +728,7 @@ PDFs, and evaluations.
   
             <input type="text" id="fname" name="fname" style=" width: 100%;
             background-color:#80c1ff;
-            border:0px solid black;
+            border:0px solid black;       height:25px;
             border-bottom:3px solid white;
             color:white;">
           
@@ -733,7 +742,7 @@ PDFs, and evaluations.
   
           <input type="text" id="fname" name="fname" style=" width: 100%;
           background-color: #80c1ff;
-          border:0px solid black;
+          border:0px solid black;       height:25px;
           border-bottom:3px solid white;
           color:white;">
         
@@ -771,21 +780,21 @@ PDFs, and evaluations.
 <td  id="lastcol2">
 
    
-<table id="tableb" style="text-align:left;">
+<table id="tableb" style="text-align:left;font-family: 'Roboto Condensed';font-weight:normal">
   <tr>
     <td colspan="2"> <h4>Contact:</h4></td>
   </tr>
   <tr>
     <td style="vertical-align: top;">
-         <img src="map.png" id="map" style="vertical-align: top;" />
+         <img src="map.png" id="map" style="vertical-align: top;margin-top:3px" />
     </td>
-    <td> 
-      <p>Address: Room no-6,  3rd Floor , East wing <br> M. Visvesvaraya Block  ,  IIT Ropar ,Rupanagar <br>
-      Punjab ,India -140001</p>
+    <td  style="vertical-align:top;"> 
+      <p style="vertical-align:top;">Address - Room No. 6, 3rd Floor, East Wing,<br> M. Visvesvaraya Block, IIT Ropar, Rupnagar, <br>
+        Punjab, India - 140001</p>
     </td>
   </tr>
   <tr>
-    <td style="position:absolute;margin-top:0px;">
+    <td style="vertical-align: top;">
          <img src="mail.png" id="mail" />
     </td>
     <td>

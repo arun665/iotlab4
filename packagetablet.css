@@ -203,6 +203,9 @@
 
 
 
+        #tempimg2{
+            height:10%;width:20%;
+        }
 
 
 
@@ -273,6 +276,16 @@
         text-decoration: none;
         color:white;
       }
+      #secondlastcard{
+          font-size: 2vm;
+      }
+      #iotcontents{
+        width:90%;
+      }
+      
+#secondlastdiv{
+    width:90%;
+}
     
     }
 
