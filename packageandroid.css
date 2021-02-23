@@ -266,7 +266,7 @@ top:200px;
 
     list-style-type: none;
     margin: 0;
-    padding-left: 1%;
+    padding-left: 2%;
     padding-right: 2%;
     
     overflow: hidden;
@@ -341,7 +341,7 @@ width:40px;
     }
       .lastimg{
         height:100px;
-        width:200px;
+        width:160px;
     }
 
     
