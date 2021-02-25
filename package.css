@@ -19,10 +19,13 @@ margin-right: auto;
     PADDING:5%;background-color:hsl(0, 0%, 100% , 0.6);border-radius:60px;
     width:100%;
     position: relative;
-    margin-left:3%;
+    margin-left:4%;
+    padding-bottom:4%;
+    overflow: hidden;
 
-    margin-bottom:1%;
-top:360px;
+
+   
+top:350px;
 
 }
 #iotcontents{
@@ -31,10 +34,10 @@ top:360px;
 
 #buttons{
 position: relative;
-top:180px;
+top:183px;
 float:right;
 
-margin-right:5%;
+margin-right:2%;
 
 
 }
@@ -125,7 +128,8 @@ border-radius: 25px;
 
 .vl {
     border-left: 8px solid grey;
-    height: 130px;
+    height:9vw;
+    vertical-align: top;
     
   }
 
@@ -142,7 +146,7 @@ border-radius: 25px;
 }
     .hl{
         margin-top:3%;
-
+overflow:hidden;
         border-top:6px solid grey;
         margin-right:auto;
         margin-left:auto;
@@ -164,15 +168,15 @@ border-radius: 25px;
     }
 
 #projectcard{
-    height:650px;
-    margin-left: auto;margin-right: auto;text-align:center;background-color:  rgba(235, 234, 234, 0.973); padding:2%;width:95%;border-radius: 75px;font-weight: bold;
+    height:42vw;
+    margin-left: auto;margin-right: auto;text-align:center;background-color:  rgba(235, 234, 234, 0.973); padding:2%;width:100%;border-radius: 75px;font-weight: bold;
 }
 #legend1{
     height:250px;width:300px;
 }
 #modulescard{
-    height:650px;
-    margin-left: auto;margin-right: auto;text-align:center;background-color: rgba(235, 234, 234, 0.973); padding:2%;width:95%;border-radius: 75px;font-weight: bold;
+    height:42vw;
+    margin-left: auto;margin-right: auto;text-align:center;background-color: rgba(235, 234, 234, 0.973); padding:2%;width:100%;border-radius: 75px;font-weight: bold;
 }
 
 #cardtempwidth{
@@ -180,17 +184,20 @@ border-radius: 25px;
 }
 
 #headerp{
-    font-size:1.5vw;
+    font-size:1.4vw;
 }
 
 #table3row {
-width:288px;
+width:250px;
 padding-top:5px;
 padding-bottom:5px;
 height:120px;
     
 }
 
+#iotcontainer{
+    width:75%;
+}
 #buttonheading{
     text-align:left;
 }
@@ -198,18 +205,25 @@ height:120px;
         display: none;
     }
     
-    #iottable{
-        border-collapse: separate;
-        border-spacing: 10px;color:#302f2f;font-size:30px;font-family: Sofia;
+    #iottable1{
+        border-collapse:collapse;
+        width:85%;
+        color:#302f2f;font-size:1.8vw;;font-family: Sofia;
+        float:right;
     }
-
+    #iottable2{
+        border-collapse:collapse;
+        width:85%;
+        color:#302f2f;font-size:1.8vw;;font-family: Sofia;
+        float:left;
+    }
     #card4{
         height:650px;
        
     }
     .divider2{
         border-left: 6px solid grey;
-        height: 620px;
+        height: 460px;
         position: absolute;
         left: 50%;
         margin-left: -3px;
@@ -231,30 +245,31 @@ height:120px;
     }
 .legendheading{
  position:relative;
- font-size:50px;
+ font-size:3vw;
  top:0px;
 }
 .legendheading2{
     margin-left:32%;
     margin-top:0%;
     font-size:3vw;
-    margin-bottom:55px;
+    margin-bottom:25px;
 }
 #fieldset1{
-    margin-top:4%;
-    width:75%;
+    margin-top:6%;
+    width:72%;
 }
 
 
 #container3{
-    width:90%;
+    width:75%;
     margin-left: auto;
     margin-right: auto;
 }
 
 #tempimg1{
     height:220px;;width:25%;
-    position:absolute;overflow:visible;top:-65px;
+    position:absolute;overflow:visible;top:-12%;
+   
 }
 
 #tempimg2{
@@ -357,7 +372,7 @@ font-family: 'Berkshire Swash';
 
 
   .table3{
-    width:80%;
+    width:70%;
 }
 
 
@@ -390,17 +405,19 @@ font-family: 'Berkshire Swash';
 }
 .divs2{
    margin-top:8%;
+   font-size:1.5vw;
 }
 
 .divs3{
     margin-top:22%;
+    font-size:1.5vw;
  }
  .moduleheading{
-font-size:50px;
+font-size:3vw;
  }
 
  .projectheading{
-    font-size:50px;
+    font-size:3vw;
      }
 
      

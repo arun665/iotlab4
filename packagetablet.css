@@ -497,6 +497,16 @@ transition: 1s;
 .divider2{
     height:380px;
 }
+#iottable1{
+    border-collapse:collapse;
+    width:85%;
+    color:#302f2f;font-size:1.8vw;;font-family: Sofia;
+}
+#iottable2{
+    border-collapse:collapse;
+    width:85%;
+    color:#302f2f;font-size:1.8vw;;font-family: Sofia;
+}
 
     }
 

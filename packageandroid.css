@@ -343,7 +343,16 @@ width:40px;
         height:100px;
         width:160px;
     }
-
+    #iottable1{
+        border-collapse:collapse;
+        width:85%;
+        color:#302f2f;font-size:20px;;font-family: Sofia;
+    }
+    #iottable2{
+        border-collapse:collapse;
+        width:85%;
+        color:#302f2f;font-size:20px;;font-family: Sofia;
+    }
     
 .fa {
     

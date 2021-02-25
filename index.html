@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="package.css">
     <link rel="stylesheet" href="packageandroid.css">
     <link rel="stylesheet" href="packagetablet.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -25,14 +26,16 @@
 </head>
 <body>
     
-
+  <div class='spinner-wrapper' style="width:100%;height:100vh;">
+    <div class="spinner-border text-primary" style="height:100px;width:100px;margin-left:auto;margin-right: auto;vertical-align: middle;"></div>
+</div>
     
 <ul id="header" >
-    <li class="menuitem"  ><a  id="brand"  href="#home">  <img src="logoimg.png" id="logoimg"  /> <img src="logo.png" id="logo"  /> </a></li>
+    <li class="menuitem"  ><a  id="brand"  href="#home">  <img src="logoimg.png" id="logoimg"  /> <img src="logo.png" id="logo" data-aos="slide-up" /> </a></li>
   
  
-    <li class="menuitem" style="float:right;"><a href="#about" >   <img src="profile.png" id="profile"  /></a></li>
-    <li class="menuitem" style="float:right;"><a href="#contact">  <img src="cart.png" id="cart"  /> </a></li> 
+    <li class="menuitem" style="float:right;"><a href="#about" >   <img src="profile.png" id="profile" data-aos="slide-up" /></a></li>
+    <li class="menuitem" style="float:right;"><a href="#contact">  <img src="cart.png" id="cart"  data-aos="slide-up"/> </a></li> 
 </ul>
 
 
@@ -41,11 +44,11 @@
 
 
 
-<div  id="student">
+<div  id="student" data-aos="fade" >
 
     <div class="col-sm-7 col-md-7 col-xs-12" style="width:100%;" >
     
-        <div  id="studentbox">
+        <div  id="studentbox" >
           <table style="border-collapse: separate;font-family: 'Roboto Condensed', sans-serif;"> 
             <tr>
             <td>
@@ -53,13 +56,13 @@
             <h1 style="color:#007FEB;font-weight:600;opacity:1;" id="studentboxheading"> STUDENT PACKAGE </h1>
           </div>  
           </td>
-            <td style="padding-left:20px;">
+            <td style="padding-left:20px;overflow:hidden;">
 
-            <div class="vl" style="margin-left: auto;margin-right: auto;"></div>
+            <div class="vl" style="margin-left: auto;margin-right: auto;vertical-align:top;" data-aos="slide-down" ></div>
             </td>
             <td>
             <div style="margin-left:10%;">
-              <p style="color:black" id="headerp"> Ace your journey of becoming an IoT expert with an interactive hands-on lab kit developed by experts from IIT.
+              <p style="color:black;vertical-align: bottom;" id="headerp"> Ace your journey of becoming an IoT expert with an interactive hands-on lab kit developed by experts from IIT.
               </p>
             </div> 
             </td>
@@ -68,8 +71,8 @@
         </div>
       </div>
 
-        <div class="col-sm-4 col-md-4 col-xs-12 " id="buttons" style="width:100%;">
-          <button  class="b1" id="button1" style="font-family: 'Roboto Condensed', sans-serif;"> ADD TO CART </button>
+        <div class="col-sm-4 col-md-4 col-xs-12 " id="buttons" style="width:100%;" >
+          <button  class="b1" id="button1" style="font-family: 'Roboto Condensed', sans-serif;" > ADD TO CART </button>
       <BR>
         
           <button class="b2"  id="button2" style="font-family: 'Roboto Condensed', sans-serif;"> BUY NOW </button>
@@ -79,7 +82,7 @@
       
 </div>
 
-<div class="hl"></div>
+<div class="hl" ></div>
 <br>
 
 
@@ -94,10 +97,10 @@
   <div class="row" style="margin-top:2%;text-align: center; width:100%; margin-left: auto;margin-right: auto;font-family: 'Roboto Condensed', sans-serif;">
     <div class="col-md-0" id="temp"></div>
     
-    <div class="col-sm-12 col-md-2 col-xs-12" id="tempdiv">
+    <div class="col-sm-12 col-md-2 col-xs-12" id="tempdiv" >
     
       <div class="card" style="border:0px solid red;" id="card1" >
-        <div id="cardtempwidth">
+        <div id="cardtempwidth" data-aos="fade-up">
         <img class="card-img-top" src="1.png" alt="Card image"  style="width:70%;margin-left: auto;margin-right: auto;" >
         </div>
         <div class="card-body" id="cardtempwidth">
@@ -113,31 +116,28 @@
     </div>
   
 
-    <div class="col-sm-12 col-md-2 col-xs-12" id="tempdiv">
+    <div class="col-sm-12 col-md-2 col-xs-12" id="tempdiv" >
     
       <div class="card" style="border:0px solid red;" id="card1" >
-        <div id="cardtempwidth">
+        <div id="cardtempwidth" data-aos="fade-up">
         <img class="card-img-top" src="2.png" alt="Card image"  style="width:70%;margin-left: auto;margin-right: auto;" >
         </div>
         <div class="card-body" id="cardtempwidth">
           <h4  id="tempdivheading"> Industry Grade
             IoT Kit</h4>
           <p   id="tempdivpara">
-            It comprises all the equipment
-needed and topic-wise videos,
+            It comprises ,
 PDFs, and evaluations.
-
-            
           </p>
     
         </div>
       </div>
     </div>
   
-    <div class="col-sm-12 col-md-2 col-xs-12" id="tempdiv">
+    <div class="col-sm-12 col-md-2 col-xs-12" id="tempdiv" >
     
       <div class="card" style="border:0px solid red;" id="card1" >
-        <div id="cardtempwidth">
+        <div id="cardtempwidth" data-aos="fade-up">
         <img class="card-img-top" src="3.png" alt="Card image"  style="width:70%;margin-left: auto;margin-right: auto;" >
         </div>
         <div class="card-body" id="cardtempwidth">
@@ -156,10 +156,10 @@ PDFs, and evaluations.
     </div>
 
       
-    <div class="col-sm-12 col-md-2 col-xs-12" id="tempdiv">
+    <div class="col-sm-12 col-md-2 col-xs-12" id="tempdiv" >
     
       <div class="card" style="border:0px solid red;" id="card1" >
-        <div id="cardtempwidth">
+        <div id="cardtempwidth" data-aos="fade-up">
         <img class="card-img-top" src="4.png" alt="Card image"  style="width:70%;margin-left: auto;margin-right: auto;" >
         </div>
         <div class="card-body" id="cardtempwidth">
@@ -179,10 +179,10 @@ PDFs, and evaluations.
       </div>
     </div>
   
-    <div class="col-sm-12 col-md-2 col-xs-12" id="tempdiv">
+    <div class="col-sm-12 col-md-2 col-xs-12" id="tempdiv" >
     
       <div class="card" style="border:0px solid red;" id="card1" >
-        <div id="cardtempwidth">
+        <div id="cardtempwidth" data-aos="fade-up">
         <img class="card-img-top" src="5.png" alt="Card image"  style="width:70%;margin-left: auto;margin-right: auto;" >
         </div>
         <div class="card-body" id="cardtempwidth">
@@ -208,7 +208,8 @@ PDFs, and evaluations.
 
 </div>
 
-<div class="hl" style="margin-top:1%;"></div>
+<div class="hl" style="margin-top:1%;" data-aos="ease-in-quad" ></div>
+<br>
 <br>
 <br>
 
@@ -218,13 +219,13 @@ PDFs, and evaluations.
 
 <div style="margin-left:auto;margin-right:auto;">
 <div class="container-fluid"> 
-<fieldset class="col-sm-12 col-md-12 col-xs-12" id="fieldset1" style="background-color: rgba(0,138,255,0.2);border-radius:65px;padding:6%;padding-left:8%;padding-right:8%;margin-left: auto;margin-right: auto;" >
+<fieldset class="col-sm-12 col-md-12 col-xs-12" id="fieldset1" style="background-color: rgba(0,138,255,0.2);border-radius:65px;padding:4%;padding-left:5%;padding-right:5%;margin-left: auto;margin-right: auto;" >
 
 
   <legend style="text-align: center;">
  <img src="legend.png"  id="legend1" /> 
   </legend>
-  <img src="legend.png"  id="tempimg1"  />
+  <img src="legend.png"  id="tempimg1"  data-aos="flip-up"/>
   <h1 class="legendheading2 legendheading" STYLE="font-weight:bold; font-weight: bold;font-family: 'Roboto Condensed', sans-serif;" >   BENEFITS OF THE COURSE </h1>
   
   
@@ -298,8 +299,8 @@ PDFs, and evaluations.
 
 <table  class="table3" style="margin-left:auto;margin-right: auto; border-collapse:  separate;border-spacing: 10px;">
   <tr>
-    <td   >
-  <button class="btn btn-primary" style="border-radius: 10px;padding-top:5px;padding-bottom:5px;;" id="table3row">
+    <td  data-aos="fade-right" >
+  <button class="btn btn-primary" style="border-radius: 10px;padding-top:5px;padding-bottom:5px;float:right;" id="table3row">
 <div class="row">
 
     <div class="col-sm-12 col-md-4 col-xs-12" > <img src="b1.png" id="b" /></div>
@@ -309,7 +310,7 @@ PDFs, and evaluations.
 
 </td>
 
-<td  id="table3row">
+<td  data-aos="fade-down">
   <button class="btn btn-primary" style="border-radius: 10px;padding-top:5px;padding-bottom:5px;;" id="table3row">
 <div class="row">
 
@@ -318,9 +319,9 @@ PDFs, and evaluations.
   </div>
 </button>
 </td>
-<td id="table3row">
+<td data-aos="fade-left">
 
-  <button class="btn btn-primary" style="border-radius: 10px;padding-top:5px;padding-bottom:5px;;" id="table3row">
+  <button class="btn btn-primary" style="border-radius: 10px;padding-top:5px;padding-bottom:5px;float:left;" id="table3row">
 <div class="row">
 
     <div class="col-sm-12 col-md-5 col-xs-12" > <img src="b3.png" id="b" /></div>
@@ -342,7 +343,7 @@ PDFs, and evaluations.
 <table style="border-collapse:separate;border-spacing: 10px;text-align: center;margin-right: auto;margin-left: auto;">
 
 <tr>
-  <td>
+  <td data-aos="zoom-in">
 
     <button  id="btn2" style="background-color: #81C0F5;color:white;">
   <div class="row">
@@ -352,7 +353,7 @@ PDFs, and evaluations.
     </div>
   </button>
   </td>
-  <td>
+  <td data-aos="zoom-in">
 
     <button id="btn2" style="background-color: #81C0F5;color:white;">
   <div class="row">
@@ -375,7 +376,7 @@ PDFs, and evaluations.
       <table  style="border-collapse:separate;border-spacing: 10px;text-align: center;margin-right: auto;margin-left: auto;">
 
         <tr>
-          <td>
+          <td data-aos="zoom-in">
         
             <button id="btn2" style="background-color: #81C0F5;color:white;">
           <div class="row">
@@ -385,7 +386,7 @@ PDFs, and evaluations.
             </div>
           </button>
           </td>
-          <td>
+          <td data-aos="zoom-in">
         
             <button id="btn2" style="background-color: #81C0F5;color:white;">
           <div class="row">
@@ -486,7 +487,7 @@ PDFs, and evaluations.
           <br>
           Smart CNG Detectors for Cars
           <br>
-          Smart Environment Monitoring System
+       Environment Monitoring System
  <br>
  Smart Fire Detection System
  <br>
@@ -510,7 +511,7 @@ PDFs, and evaluations.
 <br>
 <br>
 
-<div class="container" style="margin-left:auto;margin-right: auto;" >
+<div class="container" style="margin-left:auto;margin-right: auto;overflow:hidden" id="iotcontainer">
 
   
 <fieldset  style="border-radius:20px;width:100%;font-weight: bold;font-family: 'Roboto Condensed', sans-serif;;" id="card3">
@@ -526,9 +527,9 @@ PDFs, and evaluations.
  
     <div class="col-sm-5 col-xs-12 col-md-5" >
     
-<table  id="iottable" style="font-family: 'Roboto Condensed', sans-serif;WIDTH:100%;color:rgb(77, 76, 76)">
+<table  id="iottable1" style="font-family: 'Roboto Condensed', sans-serif;color:rgb(77, 76, 76);">
 <tr>
-  <td style="width:322px;"> MCU Dev Board </td>
+  <td > MCU Dev Board </td>
   <td STYLE="TEXT-ALIGN:RIGHT;">1</td>
 </tr>
 <tr>
@@ -581,13 +582,13 @@ PDFs, and evaluations.
 
     
     </div>
-    <div class="col-sm-2 col-xs-12 col-md-2" >
-      <div class="vl divider2"  ></div>
+    <div class="col-sm-2 col-xs-12 col-md-2"  >
+      <div class="vl divider2"  data-aos="slide-up" ></div>
     </div>
 
     <div class="col-sm-5 col-xs-12 col-md-5" >
     
-      <table id="iottable"  style=" font-family: 'Roboto Condensed', sans-serif;;WIDTH:100%;color:rgb(77, 76, 76)">
+      <table id="iottable2"  style=" font-family: 'Roboto Condensed', sans-serif;;;color:rgb(77, 76, 76);">
         <tr>
           <td style="width:322px;TEXT-ALIGN:LEFT;"> Proximity Sensor </td>
           <td STYLE="TEXT-ALIGN:RIGHT;">2</td>
@@ -647,7 +648,7 @@ PDFs, and evaluations.
 
 
 <br>
-<br>
+
 
 <div style="margin-left: auto;margin-right: auto;" id="secondlastdiv">
   <div class="row" style="font-family: 'Roboto Condensed', sans-serif;">
@@ -659,7 +660,7 @@ PDFs, and evaluations.
        
     <fieldset  class="card" id="card4" style="background-color:   rgba(0,138,255,0.2); width:100%;padding:1%;border-radius: 65px;">
       <legend class="legend4" >  <img src="faq.png" style="height:25%;width:40%;" />  </legend>
-      <img src="faq.png"  id="tempimg2" style="position:absolute;overflow:visible;top:-70px;left:25px;" />
+      <img src="faq.png"  id="tempimg2" style="position:absolute;overflow:visible;top:-70px;left:25px;" data-aos="flip-up"/>
  
       
         <h2 id="secondlastcard" style="font-weight:bold;color:rgba(58,58,58,1);font-family: 'Roboto Condensed', sans-serif;"> FREQUENTLY ASKED   </h2>
@@ -698,7 +699,7 @@ PDFs, and evaluations.
     ">
         <legend class="legend4" style="margin-left:auto;;margin-right:auto;" >  <img src="query.png" style="height:10%; width:40%;" />  </legend>
       
-        <img src="query.png"  id="tempimg2" style="position:absolute;overflow:visible;top:-70px;left:25px;" />
+        <img src="query.png"  id="tempimg2" style="position:absolute;overflow:visible;top:-70px;left:25px;" data-aos="flip-up"/>
  
   
           <h2 id="secondlastcard" style="foNT-WEIGHT:BOLD;font-family: 'Roboto Condensed', sans-serif;"> CONTACT FOR  QUERIES  </h2>
@@ -823,8 +824,8 @@ PDFs, and evaluations.
 <buttons id="footerbuttons" style="float:right;">
  
 <img src="facebook.png" class="fa" />
-<img src="insta.png"   class="fa"/>
-<img src="linkedin.png"  class="fa"/>
+<img src="insta.png"   class="fa" />
+<img src="linkedin.png"  class="fa" />
 
 </buttons>
 
@@ -833,5 +834,22 @@ PDFs, and evaluations.
  </table>
 </div>
 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+
+
+    duration: 1000,
+    once: true, 
+  });
+</script>
+<script>
+  let spinnerWrapper = document.querySelector('.spinner-wrapper');
+
+  window.addEventListener('load', function () {
+      // spinnerWrapper.style.display = 'none';
+      spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+  });
+</script>
 </body>
 </html>
