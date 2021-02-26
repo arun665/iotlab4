@@ -34,6 +34,7 @@ top:200px;
 }
            .legendheading2{
                text-align: center;
+               font-size:22px;
            } 
         #buttons{
         position:relative;
@@ -116,10 +117,10 @@ top:200px;
 
           #container2{
               
-            margin-top:35%;
+            margin-top:40%;
           }
           #heading1{
-            font-size:40px;
+            font-size:35px;
            
             text-align: center;
             color:black;
@@ -129,15 +130,22 @@ top:200px;
           
         
 #projectcard{
-    height:650px;
-    margin-left: auto;margin-right: auto;text-align:center;background-color: #d9d9d9; padding:1%;width:95%;border-radius: 20px;font-weight: bold;
+    height:550px;
+    margin-left: auto;margin-right: auto;text-align:center;background-color: #d9d9d9; padding:1%;width:95%;border-radius: 20px;;
 }
 #modulescard{
-    height:850px;
-    margin-left: auto;margin-right: auto;text-align:center;background-color: #d9d9d9; padding:1%;width:95%;border-radius: 20px;font-weight: bold;
+    height:650px;
+    margin-left: auto;margin-right: auto;text-align:center;background-color: #d9d9d9; padding:1%;width:95%;border-radius: 20px;;
 }
 
+#fieldset1{
 
+    font-size:15px;
+    margin-bottom:10%;
+}
+#bullet{
+    width:10px;
+}
 .legend3{
   margin-right: auto;
   margin-left:auto;
@@ -145,6 +153,7 @@ top:200px;
 }
 #card3{
     background-color: #b3d9ff;
+    padding-bottom:5%;
 }
 #tempimg1{
     display:none;
@@ -152,6 +161,10 @@ top:200px;
 #iottable{
     border-collapse: separate;
     border-spacing: 10px;color:black;font-size:20px;font-family: Sofia;
+    width:100%;
+}
+#iottable1{
+    width:100%;
 }
 .divider2{
     display: none;
@@ -178,7 +191,13 @@ top:200px;
 
             margin-bottom:20%;
         }
-
+        #scrollfaq{
+            font-size:15px;
+        }
+        
+.moduleheading{
+    font-size:35px;
+}
         #projects{
 
             margin-bottom:8%;
@@ -219,14 +238,17 @@ top:200px;
     
     .divs2{
         margin-top:10%;
+        font-size:15px;
     }
     .divs3{
         margin-top:10%;
+        font-size:15px;
     }
     
     #tempdiv{
         margin-left: auto;
         margin-right: auto;
+        margin-bottom:10%;
     }
 
 
@@ -252,6 +274,7 @@ top:200px;
 
 
 #secondlastdiv{
+    margin-top:10%;
     width:85%;
 }
 
@@ -348,13 +371,13 @@ width:40px;
     }
     #iottable1{
         border-collapse:collapse;
-        width:85%;
-        color:#302f2f;font-size:20px;;font-family: Sofia;
+        width:100%;
+        color:#302f2f;font-size:15px;;font-family: Sofia;
     }
     #iottable2{
         border-collapse:collapse;
-        width:85%;
-        color:#302f2f;font-size:20px;;font-family: Sofia;
+        width:100%;
+        color:#302f2f;font-size:15px;;font-family: Sofia;
     }
     
 .fa {
@@ -384,7 +407,49 @@ width:40px;
     #headerp{
         font-size:15px;
     }
+    #container3{
+        margin-top:10%;
+        margin-right:auto;
+        margin-left:auto;
+    }
     
-    
+    #cardtempwidth{
+      
+        margin-top:1%;
+ 
+    }
+    #benefitsmargin{
+        margin-top:0%;
+    }
+    .legendheading{
+        position:relative;
+        font-size:30px;
+        top:0px;
+       }
+       .legendheading2{
+       
+ 
+           font-size:30px;
+           margin-bottom:25px;
+       }
+       #fieldset1{
+           font-size:15px;
+       }
+       #card4{
+        FONT-SIZE:15PX;
+       }
+       .legendheading{
+        position:relative;
+        font-size:25px;
+        top:0px;
+       }
+       .legendheading2{
 
+           margin-top:0%;
+           font-size:25px;
+
+       }
+       #benefits{
+        margin-top:0%;
+    }
     }

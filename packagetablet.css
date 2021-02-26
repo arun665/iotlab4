@@ -386,7 +386,17 @@ transition: 1s;
         width:25px;
     }
    
-
+    #cardtempwidth{
+      
+        margin-top:3%;
+    }
+    #temphr{
+        display: none;
+        
+    }
+    #benefitsmargin{
+        margin-top:7%;
+    }
     .fa {
     
         height: 50px;
@@ -466,6 +476,11 @@ transition: 1s;
                 #button2{
                     height:50px;
                 }
+                
+#scrollfaq{
+    font-size:22px;
+}
+
             
 #table3row {
     width:150px;

@@ -28,6 +28,9 @@ margin-right: auto;
 top:350px;
 
 }
+#card4{
+    FONT-SIZE:22PX;
+}
 #iotcontents{
     width:75%;
   }
@@ -50,6 +53,7 @@ margin-right:2%;
 #headervl{
     padding-left:5%;
 }
+
 #footer{
     padding:2%;
     padding-left:8%;
@@ -135,7 +139,9 @@ border-radius: 25px;
     
   }
 
-
+#scrollfaq{
+    font-size:22px;
+}
 
 
   #heading1{
@@ -167,6 +173,9 @@ overflow:hidden;
     }
     .legend3{
         display:none;
+    }
+    #temphr{
+        display: none;
     }
 
 #projectcard{
@@ -261,6 +270,9 @@ height:120px;
     width:70%;
 }
 
+#benefits{
+    margin-top:10%;
+}
 
 #container3{
     width:75%;
@@ -455,7 +467,9 @@ font-size:3vw;
 
 
 
-
+#fieldset1{
+    font-size:25px;
+}
 
 
 
