@@ -81,10 +81,7 @@
     .legend3{
         display:none;
     }
-    #iottable{
-        border-collapse: separate;
-        border-spacing: 2px;color:black;font-size:20px;font-family: Sofia;
-    }
+
     
 #button1{
     background-color: white;
@@ -401,7 +398,22 @@ transition: 1s;
             
             transition: 1s;
           }
-          
+          #headervl{
+            padding-left:5%;
+        }
+        
+          #iottable1{
+            border-collapse:collapse;
+            width:85%;
+            color:#302f2f;font-size:1.8vw;;font-family: Sofia;
+            font-size:20px;
+        }
+        #iottable2{
+            border-collapse:collapse;
+            width:85%;
+            color:#302f2f;font-size:1.8vw;;font-family: Sofia;
+            font-size:20px;
+        }   
     
     }
 
@@ -500,12 +512,12 @@ transition: 1s;
 #iottable1{
     border-collapse:collapse;
     width:85%;
-    color:#302f2f;font-size:1.8vw;;font-family: Sofia;
+    color:#302f2f;;font-family: Sofia;font-size:20px;
 }
 #iottable2{
     border-collapse:collapse;
     width:85%;
-    color:#302f2f;font-size:1.8vw;;font-family: Sofia;
+    color:#302f2f;;font-family: Sofia;font-size:20px;
 }
 
     }

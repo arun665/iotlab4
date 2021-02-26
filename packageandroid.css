@@ -19,7 +19,7 @@
     PADDING:1%;background-color:hsl(0, 0%, 100% , 0.6);border-radius:25px;
     width:100%;
     position: relative;
-    margin-left:0.8%;
+    
 
     margin-bottom:1%;
 top:200px;
@@ -37,13 +37,16 @@ top:200px;
            } 
         #buttons{
         position:relative;
-        top:1%;
+    
         float:right;
         top:180px;
         margin-bottom:5%;
-        margin-top:11%;
+        margin-top:17%;
         margin-left: auto;
         margin-right: auto;
+        }
+        #headervl{
+            padding-left:1%;
         }
         
         #button1{
@@ -113,7 +116,7 @@ top:200px;
 
           #container2{
               
-            margin-top:30%;
+            margin-top:35%;
           }
           #heading1{
             font-size:40px;
@@ -378,6 +381,10 @@ width:40px;
     #card4{
         width:100%;
     }
+    #headerp{
+        font-size:15px;
+    }
+    
     
 
     }

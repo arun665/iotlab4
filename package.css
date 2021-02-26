@@ -47,7 +47,9 @@ margin-right:2%;
 #lastcol1{
     width:55%;
 }
-
+#headervl{
+    padding-left:5%;
+}
 #footer{
     padding:2%;
     padding-left:8%;
@@ -256,7 +258,7 @@ height:120px;
 }
 #fieldset1{
     margin-top:6%;
-    width:72%;
+    width:70%;
 }
 
 
