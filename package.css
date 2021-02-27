@@ -543,3 +543,27 @@ font-size:23px;
     border-radius: 2px;       /* roundness of the scroll thumb */
     border: 3px solid  rgba(0,138,255,0.2); /* creates padding around scroll thumb */
   }
+
+
+
+  
+
+
+  @media screen and (max-width: 450px) and    (min-width: 399px){
+
+        
+    #studentbox{
+        PADDING:1%;background-color:hsl(0, 0%, 100% , 0.6);border-radius:25px;
+        width:100%;
+        position: relative;
+        
+    
+        margin-bottom:1%;
+    top:230px;
+    
+    }
+
+
+}
+
+
