@@ -34,8 +34,13 @@ top:200px;
 }
            .legendheading2{
                text-align: center;
-               font-size:22px;
+               font-size:35px;
            } 
+           .legendheading{
+            text-align: center;
+            font-size:35px;
+        } 
+        
         #buttons{
         position:relative;
     
@@ -97,10 +102,10 @@ top:200px;
             
           }
           #tempdivheading{
-            width:80%;font-weight: bold;margin-left: auto;margin-right: auto;
+            width:80%;margin-left: auto;margin-right: auto;
         }
         #tempdivpara{
-            width:100%;overflow:visible;;font-size:15px;font-weight:bold;margin-left: auto;margin-right: auto;
+            width:100%;overflow:visible;;font-size:15px;margin-left: auto;margin-right: auto;
         }
         
 #tempimg2{
@@ -131,11 +136,11 @@ top:200px;
         
 #projectcard{
     height:550px;
-    margin-left: auto;margin-right: auto;text-align:center;background-color: #d9d9d9; padding:1%;width:95%;border-radius: 20px;;
+    margin-left: auto;margin-right: auto;text-align:center;background-color: #d9d9d9; padding:1%;width:100%;border-radius: 20px;;
 }
 #modulescard{
     height:650px;
-    margin-left: auto;margin-right: auto;text-align:center;background-color: #d9d9d9; padding:1%;width:95%;border-radius: 20px;;
+    margin-left: auto;margin-right: auto;text-align:center;background-color: #d9d9d9; padding:1%;width:100%;border-radius: 20px;;
 }
 
 #fieldset1{
@@ -371,12 +376,16 @@ width:40px;
     }
     #iottable1{
         border-collapse:collapse;
-        width:100%;
+        width:80%;
+        margin-left: auto;
+        margin-right: auto;
         color:#302f2f;font-size:15px;;font-family: Sofia;
     }
     #iottable2{
         border-collapse:collapse;
-        width:100%;
+        width:80%;
+        margin-left: auto;
+        margin-right: auto;
         color:#302f2f;font-size:15px;;font-family: Sofia;
     }
     
@@ -409,6 +418,7 @@ width:40px;
     }
     #container3{
         margin-top:10%;
+
         margin-right:auto;
         margin-left:auto;
     }
@@ -423,13 +433,13 @@ width:40px;
     }
     .legendheading{
         position:relative;
-        font-size:30px;
+        font-size:35px;
         top:0px;
        }
        .legendheading2{
        
  
-           font-size:30px;
+           font-size:35px;
            margin-bottom:25px;
        }
        #fieldset1{
@@ -438,18 +448,19 @@ width:40px;
        #card4{
         FONT-SIZE:15PX;
        }
-       .legendheading{
-        position:relative;
-        font-size:25px;
-        top:0px;
-       }
-       .legendheading2{
-
-           margin-top:0%;
-           font-size:25px;
-
-       }
+       
        #benefits{
         margin-top:0%;
+    }
+    #bullet{
+        width:10px;
+    }
+    #heading1{
+        font-size:35px;
+        font-weight:normal;
+    }
+    #iotkitheading{
+        font-size:35px;
+        font-weight:normal;
     }
     }
